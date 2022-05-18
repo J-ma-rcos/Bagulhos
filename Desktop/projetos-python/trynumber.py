@@ -4,13 +4,11 @@ from random import randint
 
 print( " bem vindo ao TENTE ACERTAR O NUMERO ")
 
-V1 = randint(1,10) 
+V1 = randint(1,4) 
 
-print(" deseja jogar? Y/N")
+V2 = input(str("deseja jogar? [y/n]\n"))
 
-V2 = input()
-
-if V2 == 'y' : v3 = int(input('digite o numero que vc acha que foi sorteado'))
+if V2 == 'y' : v3 = int(input('digite o numero que vc acha que foi sorteado\n'))
 elif V2 == 'n' : quit()
 else: print(" resposta invalida ")
 
